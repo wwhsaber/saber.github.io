@@ -40,7 +40,7 @@
     <h2 class="author">Lawliet</h2>
     <h3 class="description">只要有树叶飞舞的地方,火就会燃烧.</h3>
     <div class="count-box">
-      <a href="/archives"><div><strong>2</strong><br>文章</div></a>
+      <a href="/archives"><div><strong>3</strong><br>文章</div></a>
       <a href="/categories"><div><strong>0</strong><br>分类</div></a>
       <a href="/tags"><div><strong>0</strong><br>标签</div></a>
     </div>
@@ -67,6 +67,57 @@
 </div>
 
         <section id="main">
+  
+    <article id="post-forin" class="wow slideInRight article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/07/24/forin/" class="article-date">
+  <time class="post-time" datetime="2017-07-24T08:18:47.000Z" itemprop="datePublished">
+    <span class="post-month">7月</span><br/>
+    <span class="post-day">24</span>
+  </time>
+</a>
+   
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/07/24/forin/">for in 和  for of 的区别</a>
+    </h1>
+  
+
+        <div>
+          
+          
+              
+
+          
+        </div>
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="用法举例"><a href="#用法举例" class="headerlink" title="用法举例"></a>用法举例</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Array</span>.prototype.method=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">　　		<span class="built_in">console</span>.log(<span class="keyword">this</span>.length);</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">var</span> myArray=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>]</div><div class="line">	myArray.name=<span class="string">"数组"</span>;</div><div class="line">	<span class="xml"><span class="comment">&lt;!--for in--&gt;</span></span></div><div class="line">	for (var value in myArray) &#123;</div><div class="line">	  console.log(value);</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">输出结果 	1 2 3 4 5 name method</div><div class="line">    <span class="comment">&lt;!--for of--&gt;</span></div><div class="line">    for (var value of myArray) &#123;</div><div class="line">	  console.log(value);</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">输出结果 	1 2 3 4 5 6 7</div></pre></td></tr></table></figure>
+<h2 id="用法举例-1"><a href="#用法举例-1" class="headerlink" title="用法举例"></a>用法举例</h2><p>简单说，for in是遍历键名，for of是遍历键值。例如：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">let</span> arr = [<span class="string">"a"</span>,<span class="string">"b"</span>];</div><div class="line"><span class="keyword">for</span> (a <span class="keyword">in</span> arr) &#123;</div><div class="line">    <span class="built_in">console</span>.log(a);<span class="comment">//1,2</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">for</span> (a <span class="keyword">of</span> arr) &#123;</div><div class="line">    <span class="built_in">console</span>.log(a);<span class="comment">//a,b</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="fairytail.club/2017/07/24/forin/" data-id="cj5hw3ooq0002vntxx82mwsi7" class="article-share-link">分享</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+
   
     <article id="post-mask-images" class="wow slideInRight article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
@@ -110,7 +161,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="fairytail.club/2017/06/12/mask-images/" data-id="cj5hvnl0g0001r2txh6vvzrns" class="article-share-link">分享</a>
+      <a data-url="fairytail.club/2017/06/12/mask-images/" data-id="cj5hw3oof0000vntxm5tcw733" class="article-share-link">分享</a>
       
       
     </footer>
@@ -163,7 +214,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="fairytail.club/2017/06/02/news/" data-id="cj5hvnl0c0000r2txxfupasbu" class="article-share-link">分享</a>
+      <a data-url="fairytail.club/2017/06/02/news/" data-id="cj5hw3oot0004vntxbspgjzcy" class="article-share-link">分享</a>
       
       
     </footer>
@@ -215,7 +266,7 @@
     <h2 class="author">Lawliet</h2>
     <h3 class="description">只要有树叶飞舞的地方,火就会燃烧.</h3>
     <div class="count-box">
-      <a href="/archives"><div><strong>2</strong><br>文章</div></a>
+      <a href="/archives"><div><strong>3</strong><br>文章</div></a>
       <a href="/categories"><div><strong>0</strong><br>分类</div></a>
       <a href="/tags"><div><strong>0</strong><br>标签</div></a>
     </div>
