@@ -141,7 +141,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="fairytail.club/2017/08/15/1/" data-id="cj6de9r0e0000dgtxoclqe944" class="article-share-link">分享</a>
+      <a data-url="fairytail.club/2017/08/15/1/" data-id="cj6dean6w0000e6tx2uk70osc" class="article-share-link">分享</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/">js</a></li></ul>
@@ -191,14 +191,14 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="用法举例"><a href="#用法举例" class="headerlink" title="用法举例"></a>用法举例</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Array</span>.prototype.method=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">　　		<span class="built_in">console</span>.log(<span class="keyword">this</span>.length);</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">var</span> myArray=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>]</div><div class="line">	myArray.name=<span class="string">"数组"</span>;</div><div class="line">	&lt;!--for in--&gt;</div><div class="line">	for (var value in myArray) &#123;</div><div class="line">	  console.log(value);</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">输出结果 	1 2 3 4 5 name method</div><div class="line">    &lt;!--for of--&gt;</div><div class="line">    for (var value of myArray) &#123;</div><div class="line">	  console.log(value);</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">输出结果 	1 2 3 4 5 6 7</div></pre></td></tr></table></figure>
+        <h2 id="用法举例"><a href="#用法举例" class="headerlink" title="用法举例"></a>用法举例</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Array</span>.prototype.method=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">　　		<span class="built_in">console</span>.log(<span class="keyword">this</span>.length);</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">var</span> myArray=[<span class="number">1</span>,<span class="number">2</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>,<span class="number">7</span>]</div><div class="line">	myArray.name=<span class="string">"数组"</span>;</div><div class="line">	<span class="xml"><span class="comment">&lt;!--for in--&gt;</span></span></div><div class="line">	for (var value in myArray) &#123;</div><div class="line">	  console.log(value);</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">输出结果 	1 2 3 4 5 name method</div><div class="line">    <span class="comment">&lt;!--for of--&gt;</span></div><div class="line">    for (var value of myArray) &#123;</div><div class="line">	  console.log(value);</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">输出结果 	1 2 3 4 5 6 7</div></pre></td></tr></table></figure>
 <h2 id="用法举例-1"><a href="#用法举例-1" class="headerlink" title="用法举例"></a>用法举例</h2><p>简单说，for in是遍历键名，for of是遍历键值。例如：</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">let</span> arr = [<span class="string">"a"</span>,<span class="string">"b"</span>];</div><div class="line"><span class="keyword">for</span> (a <span class="keyword">in</span> arr) &#123;</div><div class="line">    <span class="built_in">console</span>.log(a);<span class="comment">//1,2</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">for</span> (a <span class="keyword">of</span> arr) &#123;</div><div class="line">    <span class="built_in">console</span>.log(a);<span class="comment">//a,b</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="fairytail.club/2017/07/24/forin/" data-id="cj6de9r0k0002dgtxr0wgqb9r" class="article-share-link">分享</a>
+      <a data-url="fairytail.club/2017/07/24/forin/" data-id="cj6dean790006e6txp9znonje" class="article-share-link">分享</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/">js</a></li></ul>
@@ -276,7 +276,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="fairytail.club/2017/06/02/news/" data-id="cj6de9r0t0007dgtx2ctrlpc9" class="article-share-link">分享</a>
+      <a data-url="fairytail.club/2017/06/02/news/" data-id="cj6dean7c0007e6txesmidapw" class="article-share-link">分享</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/博客/">博客</a></li></ul>
@@ -336,7 +336,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="fairytail.club/2016/06/01/mask-images/" data-id="cj6de9r0r0006dgtx3xveilok" class="article-share-link">分享</a>
+      <a data-url="fairytail.club/2016/06/01/mask-images/" data-id="cj6dean720002e6txbrxwigwk" class="article-share-link">分享</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/css3/">css3</a></li></ul>
